@@ -1,0 +1,27 @@
+{
+  "window.commandCenter": false,
+  "editor.fontFamily": "'0xProto Nerd Font', Consolas, 'Courier New', monospace",
+  "editor.fontSize": 16,
+  "editor.fontLigatures": true,
+  "editor.fontWeight": "bold",
+  "editor.minimap.enabled": false,
+  "editor.lineHeight": 2.7,
+  "workbench.sideBar.location": "right",
+  "workbench.activityBar.location": "top",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.cursorBlinking": "phase",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "window.title": " ",
+  "editor.renderWhitespace": "all",
+  "editor.stickyScroll.enabled": false,
+  // MenuBar Toogle [alt]
+  "window.menuBarVisibility": "toggle",
+  "window.customTitleBarVisibility": "auto",
+  "workbench.productIconTheme": "material-product-icons",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Andromeda Bordered",
+  "editor.wordWrap": "on",
+  "editor.linkedEditing": true
+}

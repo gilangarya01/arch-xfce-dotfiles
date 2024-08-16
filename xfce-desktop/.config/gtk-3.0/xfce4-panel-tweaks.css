@@ -1,0 +1,136 @@
+#whiskermenu-button image { -gtk-icon-transform: scale(0.50); }
+#pulseaudio-button image { -gtk-icon-transform: scale(0.50); }
+#xfce4-power-manager-plugin image {-gtk-icon-transform: scale(0.50);}
+#xfce4-notification-plugin image {-gtk-icon-transform: scale(0.50);}
+#xfce4-status-tray-plugin image {-gtk-icon-transform: scale(0.50);}
+
+.xfce4-panel.panel {
+  background-color: rgba(33, 33, 33, 0.95);
+  font-weight: normal;
+  text-shadow: none;
+  -gtk-icon-shadow: none; }
+/* #pulseaudio-button * {
+-gtk-icon-transform: scale(0.8);
+} 
+
+#xfce4-power-manager-plugin * {
+-gtk-icon-transform: scale(0.8);
+} */
+/* .xfce4-panel widget grid button.flat.toggle:hover { 
+  font-family: 'Sans Bold'; 
+  font-size: 16px;
+} */
+/* .xfce4-panel widget grid button.flat.toggle:checked { 
+  font-family: 'Sans Bold';
+  font-size: 16px;
+  border-bottom: 5px solid #5294E2;
+  padding: 10px;
+} */
+/*
+Whisker Menu
+*/
+
+/*Applications Button*/
+window#whiskermenu-window > frame > border {
+  border-radius: 10px;
+}
+#whiskermenu-button {
+  background-color: #454C5A;
+  color: #ffffff;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  margin: 4px;
+  padding: 4px;
+}
+#whiskermenu-window treeview {
+  margin: 4px;
+  padding: 4px;
+}
+#whiskermenu-button:checked {
+  background-color: #5294E2;
+  color: #ffffff;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  margin: 4px;
+  padding: 4px;
+}
+
+#whiskermenu-button:hover {
+  background-color: #5294E2;
+  color: #ffffff;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  margin: 4px;
+  padding: 4px;
+}
+/* Docklike plugin */
+#docklike-plugin .group {
+    transition: 0.2s;
+    border-radius: 3px;
+    margin: 5px;
+    background-color: rgba(255,255,255,0.04);
+    padding: 5px;
+}
+#docklike-plugin .hover_group {
+	background-color: rgba(255,255,255,0.07);
+}
+
+ /* Workspace indicator... */
+#pager-4 grid {
+	background-color: rgba(255,255,255,0.05);
+	margin: 4px;
+	border-radius: 3px;
+}
+#pager-4 button {
+	padding: 3px;
+	margin: 5px;
+	background-color: transparent;
+}
+#pager-4 button:hover {
+	background-color: rgba(255,255,255,0.05);
+}
+#pager-4 button:checked {
+	box-shadow: none;
+	background-color: rgba(255,255,255,0.1);
+	color: #FFF;
+}
+/* .genmon_plugin */
+.genmon_plugin button {
+	padding: 0 4px;
+}
+.genmon_plugin {
+	padding: 0 4px;
+}
+/* 2 Separators before and after the genmon applets */
+#separator-12, #separator-2 {
+	color: rgba(255,255,255,0.2);
+}
+
+  #launcher-2 #launcher-arrow {
+  background-color: #454C5A;
+  color: #ffffff;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  margin: 4px;
+  padding: 4px;
+  }
+    
+  #launcher-2 #launcher-arrow:hover {
+  background-color: #ff7474;
+  color: #ffffff;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  margin: 4px;
+  padding: 4px;
+  }
+  #launcher-2 button image { -gtk-icon-transform: scale(0.50); }

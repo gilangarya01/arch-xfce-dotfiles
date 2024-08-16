@@ -1,0 +1,66 @@
+
+# Default Colors
+[colors.primary]
+background = '#10100E'
+foreground = '#C6C6C4'
+
+# Normal colors
+[colors.normal]
+black   = '#10100E'
+red     = '#C40233'
+green   = '#009F6B'
+yellow  = '#FFD700'
+blue    = '#0087BD'
+magenta = '#9A4EAE'
+cyan    = '#20B2AA'
+white   = '#C6C6C4'
+
+# Bright colors
+[colors.bright]
+black   = '#696969'
+red     = '#FF2400'
+green   = '#03C03C'
+yellow  = '#FDFF00'
+blue    = '#007FFF'
+magenta = '#FF1493'
+cyan    = '#00CCCC'
+white   = '#FFFAFA'
+
+[shell]
+program = "/usr/bin/zsh"
+args = ["-c", "~/.scripts/startup_terminal.sh; exec /bin/zsh"]
+
+[window]
+dynamic_padding   = false
+resize_increments = true
+opacity           = 0.95
+
+[window.dimensions]
+columns = 80
+lines   = 25
+
+[font]
+size = 9.0
+
+[font.bold]
+family = "0xProto Nerd Font"
+style  = "Heavy"
+
+[font.bold_italic]
+family = "0xProto Nerd Font"
+style  = "Heavy Italic"
+
+[font.italic]
+family = "0xProto Nerd Font"
+style  = "Medium Italic"
+
+[font.normal]
+family = "0xProto Nerd Font"
+style  = "Medium"
+
+[cursor.style]
+shape = "Beam"
+blinking = "On"
+
+
+

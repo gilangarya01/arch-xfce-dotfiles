@@ -1,0 +1,8 @@
+digitalbrainstem.javascript-ejs-support
+esbenp.prettier-vscode
+felixicaza.andromeda
+oderwat.indent-rainbow
+pkief.material-icon-theme
+pkief.material-product-icons
+rangav.vscode-thunder-client
+ritwickdey.liveserver

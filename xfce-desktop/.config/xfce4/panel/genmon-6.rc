@@ -1,0 +1,6 @@
+Command=/home/lsteam/.genmon-plugin/network-panel.sh
+UseLabel=0
+Text=Network
+UpdatePeriod=5000
+Font=IBM Plex Sans 10
+
