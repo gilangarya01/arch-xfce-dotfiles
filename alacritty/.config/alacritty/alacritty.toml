@@ -1,39 +1,45 @@
 
-# Default Colors
+# Colors (Hyper)
+
+# Default colors
 [colors.primary]
-background = '#10100E'
-foreground = '#C6C6C4'
+background = '#000000'
+foreground = '#ffffff'
+
+[colors.cursor]
+text = '#F81CE5'
+cursor = '#ffffff'
 
 # Normal colors
 [colors.normal]
-black   = '#10100E'
-red     = '#C40233'
-green   = '#009F6B'
-yellow  = '#FFD700'
-blue    = '#0087BD'
-magenta = '#9A4EAE'
-cyan    = '#20B2AA'
-white   = '#C6C6C4'
+black   = '#000000'
+red     = '#fe0100'
+green   = '#33ff00'
+yellow  = '#feff00'
+blue    = '#0066ff'
+magenta = '#cc00ff'
+cyan    = '#00ffff'
+white   = '#d0d0d0'
 
 # Bright colors
 [colors.bright]
-black   = '#696969'
-red     = '#FF2400'
-green   = '#03C03C'
-yellow  = '#FDFF00'
-blue    = '#007FFF'
-magenta = '#FF1493'
-cyan    = '#00CCCC'
-white   = '#FFFAFA'
+black   = '#808080'
+red     = '#fe0100'
+green   = '#33ff00'
+yellow  = '#feff00'
+blue    = '#0066ff'
+magenta = '#cc00ff'
+cyan    = '#00ffff'
+white   = '#FFFFFF'
 
 [shell]
-program = "/usr/bin/zsh"
+program = "zsh"
 args = ["-c", "~/.scripts/startup_terminal.sh; exec /bin/zsh"]
 
 [window]
 dynamic_padding   = false
 resize_increments = true
-opacity           = 0.95
+opacity           = 1
 
 [window.dimensions]
 columns = 80

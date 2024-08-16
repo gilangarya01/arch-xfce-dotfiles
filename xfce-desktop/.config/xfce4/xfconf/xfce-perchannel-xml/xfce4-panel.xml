@@ -95,13 +95,14 @@
         <value type="string" value="xfce-backdrop-settings.desktop"/>
       </property>
       <property name="recent" type="array">
-        <value type="string" value="lightdm-gtk-greeter-settings.desktop"/>
+        <value type="string" value="sleepy-launcher.desktop"/>
         <value type="string" value="wuwa--harmonic_loader--1723761933.131374.desktop"/>
+        <value type="string" value="com.obsproject.Studio.desktop"/>
+        <value type="string" value="discord.desktop"/>
+        <value type="string" value="lightdm-gtk-greeter-settings.desktop"/>
         <value type="string" value="com.usebottles.bottles.desktop"/>
         <value type="string" value="org.xfce.mousepad.desktop"/>
-        <value type="string" value="discord.desktop"/>
         <value type="string" value="xfce4-color-settings.desktop"/>
-        <value type="string" value="sleepy-launcher.desktop"/>
         <value type="string" value="xfce-mouse-settings.desktop"/>
         <value type="string" value="xfce-keyboard-settings.desktop"/>
       </property>
@@ -173,6 +174,7 @@
     </property>
     <property name="plugin-18" type="string" value="systray">
       <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “4g” active: 4g (75%)"/>
         <value type="string" value="wi-fi network connection “4g” active: 4g (78%)"/>
         <value type="string" value="notes"/>
         <value type="string" value="xfce4-power-manager"/>

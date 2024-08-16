@@ -1,4 +1,9 @@
 
+if [[ -v TMUX ]]
+then
+    tmux list-panes -s | awk 'END { if(NR == 1 && $4 ~ "0/") system("fastfetch --config simple")}'
+fi
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 
@@ -143,6 +148,5 @@ alias rembg='/home/gilang/Tools/rembg/bin/python3 /home/gilang/Tools/rembg/scrip
 
 # Docker
 alias cleandock='docker rm -f $(docker ps -a -q) && docker rmi -f $(docker images -a -q) && docker volume rm $(docker volume ls -q) && docker network rm $(docker network ls -q)'
-
 
 
