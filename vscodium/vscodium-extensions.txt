@@ -1,6 +1,6 @@
 digitalbrainstem.javascript-ejs-support
 esbenp.prettier-vscode
-felixicaza.andromeda
+jdinhlife.gruvbox
 oderwat.indent-rainbow
 pkief.material-icon-theme
 pkief.material-product-icons

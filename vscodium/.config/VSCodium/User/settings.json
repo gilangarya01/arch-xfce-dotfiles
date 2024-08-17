@@ -21,7 +21,7 @@
   "window.customTitleBarVisibility": "auto",
   "workbench.productIconTheme": "material-product-icons",
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Andromeda Bordered",
   "editor.wordWrap": "on",
-  "editor.linkedEditing": true
+  "editor.linkedEditing": true,
+  "workbench.colorTheme": "Gruvbox Dark Medium"
 }
