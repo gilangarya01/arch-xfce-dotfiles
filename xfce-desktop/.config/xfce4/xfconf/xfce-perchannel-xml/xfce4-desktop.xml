@@ -4,7 +4,7 @@
   <property name="backdrop" type="empty">
     <property name="screen0" type="empty">
       <property name="monitor0" type="empty">
-        <property name="image-path" type="string" value="/home/gilang/Pictures/gruvbox-wallpapers/anime/wallhaven-2e2xyx.jpg"/>
+        <property name="image-path" type="string" value="/home/gilang/Pictures/gruvbox-wallpapers/minimalistic/gruv-estimate.png"/>
         <property name="image-style" type="int" value="3"/>
         <property name="image-show" type="bool" value="true"/>
       </property>
@@ -49,7 +49,7 @@
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="3"/>
-          <property name="last-image" type="string" value="/home/gilang/Pictures/gruvbox-wallpapers/anime/wallhaven-2e2xyx.jpg"/>
+          <property name="last-image" type="string" value="/home/gilang/Pictures/gruvbox-wallpapers/minimalistic/gruv-estimate.png"/>
         </property>
         <property name="workspace1" type="empty">
           <property name="color-style" type="int" value="0"/>

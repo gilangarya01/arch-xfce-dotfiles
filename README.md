@@ -13,3 +13,9 @@ This repository contains my personal configuration files (dotfiles) for various 
    ```
 - Install vscodium extension `cat vscodium-extensions.txt | xargs -L 1 codium --install-extension`
 - Install xfce desktop `rsync -av .config ~/`
+- Uninstall Neovim
+    ```bash
+    rm -rf ~/.config/nvim
+    rm -rf ~/.local/state/nvim
+    rm -rf ~/.local/share/nvim
+    ```

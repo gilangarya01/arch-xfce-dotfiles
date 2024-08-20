@@ -12,3 +12,6 @@ o.ruler = true
 o.cursorline = true
 o.mouse = "a"
 o.termguicolors = true
+o.clipboard = "unnamedplus"
+
+

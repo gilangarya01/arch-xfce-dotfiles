@@ -31,6 +31,7 @@ return {
 				sources = cmp.config.sources({
 					{ name = "nvim_lsp" },
 					{ name = "luasnip" }, -- For luasnip users.
+					{ name = "path" }, -- File path completion
 				}, {
 					{ name = "buffer" },
 				}),
@@ -43,5 +44,8 @@ return {
 		config = true,
 		-- use opts = {} for passing setup options
 		-- this is equalent to setup({}) function
+	},
+	{
+		"hrsh7th/cmp-path", -- Add this plugin for file path completion
 	},
 }

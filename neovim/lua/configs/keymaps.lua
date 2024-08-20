@@ -42,3 +42,8 @@ map("n", "<leader>ca", vim.lsp.buf.code_action, {})
 -- NeoTree
 map("n", "<leader>bb", "<CMD>Neotree toggle<CR>") -- Toggle Tree
 map("n", "<leader>br", "<CMD>Neotree focus<CR>") -- Focus Tree
+
+-- Tabline
+map("n", "<A-,>", "<Cmd>BufferPrevious<CR>")
+map("n", "<A-.>", "<Cmd>BufferNext<CR>")
+map("n", "<A-x>", "<Cmd>BufferClose<CR>")

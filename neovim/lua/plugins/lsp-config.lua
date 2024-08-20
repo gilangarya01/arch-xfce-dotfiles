@@ -1,4 +1,5 @@
 return {
+	-- Mason for managing LSP servers, linters, and formatters
 	{
 		"williamboman/mason.nvim",
 		dependencies = {
@@ -19,14 +20,15 @@ return {
 					"tsserver",
 					"pyright",
 					"tailwindcss",
+					"lua_ls",
 				},
 			})
 
 			require("mason-tool-installer").setup({
 				ensure_installed = {
 					"prettier",
-					"isort", -- python formatter
 					"black", -- python formatter
+					"isort", -- python formatter
 					"pylint",
 					"eslint_d",
 					"stylua", -- lua formatter
