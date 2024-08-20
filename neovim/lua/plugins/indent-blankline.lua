@@ -3,7 +3,9 @@ return {
 	main = "ibl",
 	---@module "ibl"
 	---@type ibl.config
-	opts = {},
+	opts = {
+		indent = { char = "┊" },
+	},
 	config = function()
 		require("ibl").setup({
 			indent = { highlight = highlight },
