@@ -5,23 +5,59 @@
   "editor.fontLigatures": true,
   "editor.fontWeight": "bold",
   "editor.minimap.enabled": false,
-  "editor.lineHeight": 2.7,
-  "workbench.sideBar.location": "right",
+  "editor.lineHeight": 2.5,
   "workbench.activityBar.location": "top",
   "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
-  "editor.cursorBlinking": "phase",
-  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "solid",
   "window.title": " ",
   "editor.renderWhitespace": "all",
   "editor.stickyScroll.enabled": false,
   // MenuBar Toogle [alt]
   "window.menuBarVisibility": "toggle",
-  "window.customTitleBarVisibility": "auto",
+  // "window.customTitleBarVisibility": "auto",
   "workbench.productIconTheme": "material-product-icons",
   "workbench.iconTheme": "material-icon-theme",
   "editor.wordWrap": "on",
-  "editor.linkedEditing": true,
-  "workbench.colorTheme": "Gruvbox Dark Hard"
+  "workbench.colorTheme": "Gruvbox Dark Hard",
+  "workbench.sideBar.location": "right",
+  "editor.cursorStyle": "block-outline",
+
+  // VIM
+  "vim.smartRelativeLine": true,
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.hlsearch": true,
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-c>": false,
+    "<C-f>": false,
+    "<C-x>": false,
+    "<C-p>": false
+  },
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["<leader>", "e"],
+      "commands": ["workbench.view.explorer"]
+    },
+    {
+      "before": ["<leader>", "q"],
+      "commands": ["workbench.action.closeFolder"]
+    },
+    {
+      "before": ["<C-n>"],
+      "commands": [":nohl"]
+    }
+  ],
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "workbench.startupEditor": "none",
+  "zenMode.centerLayout": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
 }

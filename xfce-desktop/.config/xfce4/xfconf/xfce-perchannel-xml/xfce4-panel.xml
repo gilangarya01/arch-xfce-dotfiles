@@ -95,16 +95,16 @@
         <value type="string" value="xfce-backdrop-settings.desktop"/>
       </property>
       <property name="recent" type="array">
+        <value type="string" value="wuwa--harmonic_loader--1723761933.131374.desktop"/>
+        <value type="string" value="steam.desktop"/>
+        <value type="string" value="com.usebottles.bottles.desktop"/>
+        <value type="string" value="obsidian.desktop"/>
+        <value type="string" value="htop.desktop"/>
         <value type="string" value="codium.desktop"/>
         <value type="string" value="com.obsproject.Studio.desktop"/>
         <value type="string" value="xfce-workspaces-settings.desktop"/>
         <value type="string" value="xfce-wmtweaks-settings.desktop"/>
         <value type="string" value="sleepy-launcher.desktop"/>
-        <value type="string" value="wuwa--harmonic_loader--1723761933.131374.desktop"/>
-        <value type="string" value="obsidian.desktop"/>
-        <value type="string" value="onlyoffice-desktopeditors.desktop"/>
-        <value type="string" value="nvim.desktop"/>
-        <value type="string" value="lightdm-gtk-greeter-settings.desktop"/>
       </property>
       <property name="show-button-icon" type="bool" value="true"/>
       <property name="show-button-title" type="bool" value="false"/>
@@ -183,6 +183,7 @@
         <value type="string" value="wi-fi network connection “4g” active: 4g (79%)"/>
       </property>
       <property name="known-items" type="array">
+        <value type="string" value="steam"/>
         <value type="string" value="chrome_status_icon_1"/>
         <value type="string" value="obs"/>
       </property>
