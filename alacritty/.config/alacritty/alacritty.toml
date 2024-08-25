@@ -1,6 +1,3 @@
-# Colors (Tokyo Night)
-# Source https//github.com/zatchheems/tokyo-night-alacritty-theme
-
 # Colors (Gruvbox dark)
 
 # Default colors
@@ -68,6 +65,3 @@ style  = "Medium"
 [cursor.style]
 shape = "Beam"
 blinking = "On"
-
-
-
