@@ -9,19 +9,23 @@
   "workbench.activityBar.location": "top",
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "editor.formatOnSave": true,
-  "editor.cursorBlinking": "solid",
+  "editor.cursorBlinking": "expand",
   "window.title": " ",
   "editor.renderWhitespace": "all",
   "editor.stickyScroll.enabled": false,
   // MenuBar Toogle [alt]
   "window.menuBarVisibility": "toggle",
-  // "window.customTitleBarVisibility": "auto",
+  "window.customTitleBarVisibility": "auto",
   "workbench.productIconTheme": "material-product-icons",
   "workbench.iconTheme": "material-icon-theme",
   "editor.wordWrap": "on",
-  "workbench.colorTheme": "Gruvbox Dark Hard",
   "workbench.sideBar.location": "right",
-  "editor.cursorStyle": "block-outline",
+  "zenMode.centerLayout": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "workbench.colorTheme": "Carbon Owl",
+  // "workbench.statusBar.visible": false,
+  "breadcrumbs.enabled": false,
+  "workbench.startupEditor": "none",
 
   // VIM
   "vim.smartRelativeLine": true,
@@ -56,8 +60,5 @@
       "before": ["j", "j"],
       "after": ["<Esc>"]
     }
-  ],
-  "workbench.startupEditor": "none",
-  "zenMode.centerLayout": false,
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
+  ]
 }

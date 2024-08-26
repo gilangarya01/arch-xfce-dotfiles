@@ -1,13 +1,11 @@
-dbaeumer.vscode-eslint
 digitalbrainstem.javascript-ejs-support
 esbenp.prettier-vscode
 formulahendry.auto-rename-tag
 formulahendry.code-runner
-jdinhlife.gruvbox
 oderwat.indent-rainbow
 pkief.material-icon-theme
 pkief.material-product-icons
+pxius.carbon-owl
 rangav.vscode-thunder-client
 ritwickdey.liveserver
 vscodevim.vim
-wallabyjs.quokka-vscode
