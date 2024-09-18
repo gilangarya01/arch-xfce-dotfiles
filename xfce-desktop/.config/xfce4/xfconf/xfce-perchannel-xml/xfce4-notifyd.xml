@@ -23,6 +23,7 @@
       <value type="string" value="notify-send"/>
       <value type="string" value="thunar-volman"/>
       <value type="string" value="MX Updater"/>
+      <value type="string" value="udiskie"/>
     </property>
   </property>
   <property name="show-text-with-gauge" type="bool" value="true"/>

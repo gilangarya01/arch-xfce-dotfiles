@@ -2,7 +2,7 @@
 
 <channel name="xfwm4" version="1.0">
   <property name="general" type="empty">
-    <property name="theme" type="string" value="Tokyonight-Dark"/>
+    <property name="theme" type="string" value="Orchis-Teal-Dark-Compact"/>
     <property name="button_layout" type="string" value="O|HMC"/>
     <property name="activate_action" type="string" value="bring"/>
     <property name="borderless_maximize" type="bool" value="true"/>
